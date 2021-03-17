@@ -1,0 +1,7 @@
+{
+    "appUri": "https://www.google.com/",
+    "browser":"chrome",
+    "driverOptions": "--window-size=1800,900",
+    "driverDefaultWaitSeconds": 10,
+    "screenShotBefore": false
+}

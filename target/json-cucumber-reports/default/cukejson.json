@@ -1,0 +1,66 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-17T15:43:22.382Z",
+        "line": 5,
+        "name": "Test Scenario",
+        "description": "",
+        "id": "title-of-your-feature;test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5981617300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Sample test",
+            "match": {
+              "location": "TestSteps.sample_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90979600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open  google",
+            "match": {
+              "location": "TestSteps.i_open_google()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.test.project.steps.TestSteps.google_is_displayed(TestSteps.java:37)\r\n\tat ✽.google is displayed(file:src/test/resources/features/test.feature:8)\r\n",
+              "duration": 2181300,
+              "status": "pending"
+            },
+            "line": 8,
+            "name": "google is displayed",
+            "match": {
+              "location": "TestSteps.google_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/test.feature",
+    "tags": []
+  }
+]
